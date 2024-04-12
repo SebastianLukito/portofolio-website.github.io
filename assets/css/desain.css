@@ -1,0 +1,380 @@
+/* General */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Poppins', sans-serif;
+    background-color: #000000;
+}
+
+/* Button */
+button {
+    border: none;
+    background-color: transparent;
+    margin: 15px;
+    cursor: pointer;
+    transition: transform 0.5s;
+    opacity: 0;
+    animation: fadeIn 2s ease forwards;
+    animation-delay: 1s;
+}
+
+button:focus {
+    outline: none;
+}
+
+button:hover i {
+    color: rgb(102, 102, 102);
+}
+
+i {
+    color: gray;
+    font-size: 4em;
+}
+
+/* Book */
+.book {
+    width: 435px;
+    height: 585px;
+    position: relative;
+    transition: transform 0.5s;
+}
+
+.paper {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    perspective: 1500px;
+    border-radius: 12px;
+}
+
+.front {
+    backface-visibility: hidden;
+    border-left: 3px solid #dac400;
+}
+
+.front, 
+.back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fffed6;
+    background-image: url(http://www.transparenttextures.com/patterns/leather.png);
+    transform-origin: left;
+    transition: transform 0.5s;
+    border-radius: 12px;
+    padding: 20px;
+}
+
+.front {
+    z-index: 1;
+    border-left: 10px solid #dac400;
+}
+
+.back {
+    z-index: 0;
+}
+
+.front-content,
+.back-content {
+
+    flex-direction: column;
+
+
+    display: flex; /* Using flexbox for centering content */
+    justify-content: center; /* Centering content horizontally */
+    align-items: center; /* Centering content vertically */
+    height: 100%; /* Full height of the parent element */
+    width: 100%; /* Full width of the parent element */
+    overflow: hidden;
+}
+
+.back-content {
+    transform: rotateY(180deg)
+}
+
+/* Paper Flipped */
+.flipped .front,
+.flipped .back {
+    transform: rotateY(-180deg)
+}
+
+/* Paper Z-index */
+#p1 {
+    z-index: 17;
+}
+
+#p2 {
+    z-index: 16;
+}
+
+#p3 {
+    z-index: 15;
+}
+
+#p4 {
+    z-index: 14;
+}
+
+#p5 {
+    z-index: 13;
+}
+
+#p6 {
+    z-index: 12;
+}
+
+#p7 {
+    z-index: 11;
+}
+
+#p8 {
+    z-index: 10;
+}
+
+#p9 {
+    z-index: 9;
+}
+
+#p10 {
+    z-index: 8;
+}
+
+#p11 {
+    z-index: 7;
+}
+
+#p12 {
+    z-index: 6;
+}
+
+#p13 {
+    z-index: 5;
+}
+
+#p14 {
+    z-index: 4;
+}
+
+#p15 {
+    z-index: 3;
+}
+
+#p16 {
+    z-index: 2;
+}
+
+#p17 {
+    z-index: 1;
+}
+
+
+
+
+#f1 {
+    background-color: #040404;
+    border-radius: 10px;
+    background-image: url("https://www.transparenttextures.com/patterns/45-degree-fabric-light.png");
+
+}
+
+#b17 {
+    background-color: #040404;
+    border-radius: 10px;
+    background-image: url("https://www.transparenttextures.com/patterns/45-degree-fabric-light.png");
+}
+
+
+/* Customization */
+
+.book-title {
+    font-size: 3em;
+    margin-bottom: 40px;
+}
+
+
+#b1 {
+    font-size: 1.2em;
+}
+
+#b1 h2 {
+    font-size: 2em;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+#b1 p {
+    margin-bottom: 20px;
+}
+
+
+.gambar{
+    background-size: cover;
+    background-image: url(http://www.transparenttextures.com/patterns/leather.png);
+    padding: 20px;
+    border-radius: 20px;
+}
+
+.judul_buku{
+    font-size:20px;
+    margin-bottom: 25px;
+    margin-top: 15px;
+}
+
+.nama_mahasiswa{
+    font-size: 15px;
+    margin-top: 30px;
+    padding: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    background-color: rgb(0, 0, 0);
+    background-image: url(http://www.transparenttextures.com/patterns/leather.png);
+    border-radius: 5px;
+    margin-bottom: 15px;
+}
+
+.gold-text {
+    font-size: 40px; /* Adjust font size as needed */
+    font-family: Great Vibes;
+    font-weight: none; /* Bold font makes the gold effect more prominent */
+    color: #D4AF37; /* Basic gold color */
+    background: -webkit-linear-gradient(#D4AF37, #FFD700, #D4AF37);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-shadow: 0px 0px 2px #DAA520, /* softer shadow */
+                 0px 0px 10px #FFD700, /* glow effect */
+                 0px 0px 5px #D4AF37; /* deeper glow */
+  }
+
+
+.halaman{
+    background-color: #000000;
+    height: 100%;
+    width: 100%;
+    background-image: url(http://www.transparenttextures.com/patterns/leather.png);
+    top: 0;
+    left: 0;
+    border-radius: 12px;
+    vertical-align: center;
+    text-align: center;
+    
+}
+
+.halamanBelakang{
+    background-color: #000000;
+    height: 100%;
+    width: 100%;
+    background-image: url(http://www.transparenttextures.com/patterns/leather.png);
+    top: 0;
+    left: 0;
+    border-radius: 12px;
+    vertical-align: center;
+}
+
+.judul_halaman{
+    background-color: #555555;
+    background-image: url(http://www.transparenttextures.com/patterns/leather.png);
+    margin-top: 15px;
+    margin-bottom: 70px;
+    margin-left: 15px;
+    margin-right: 15px;
+    border-radius: 10px;
+    padding: 6px;
+    color: #ffffff;
+    text-align: center;
+}
+
+.judul_halamanFront{
+    background-color: #555555;
+    background-image: url(http://www.transparenttextures.com/patterns/leather.png);
+    margin-top: 15px;
+    margin-bottom: 20px;
+    margin-left: 15px;
+    margin-right: 15px;
+    border-radius: 10px;
+    padding: 6px;
+    color: #ffffff;
+    text-align: center;
+}
+
+.Penjelasan{
+    font-family: 'Poppins', sans-serif;
+    font-size: 13px;
+    padding: 15px;
+    margin: 15px;
+    color:#ffffff;
+    text-align: justify;
+}
+
+.video_hobi{
+    margin-bottom: 70px;
+    border-radius: 30px;
+}
+
+.keterangan{
+    background-color: #555555;
+    background-image: url(http://www.transparenttextures.com/patterns/leather.png);
+    color: #ffffff;
+    padding: 6px;
+    vertical-align: center;
+    border-radius: 10px;
+    margin-left: 15px;
+    margin-right: 15px;
+    text-align: center;
+}
+
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+
+button {
+    opacity: 0;
+    animation: fadeIn 2s ease forwards;
+    animation-delay: 0s;
+}
+
+.halamanDetail {
+    background-color: #dac400;
+    padding: 10px;
+    padding-left: 25px;
+    padding-right: 25px;
+    border-radius: 10px;
+    text-align: center;
+    margin-right: 80px; 
+    margin-left: 80px;
+    margin: 20px;
+    box-shadow: 0 20px 20px rgba(5, 5, 5, 0.1);
+    cursor: pointer;
+}
+
+.halamanDetail:hover{
+    color: #ffffff;
+}
+
+.gambar {
+    scale:1;
+    object-fit: fill;
+}
+

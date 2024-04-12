@@ -1,0 +1,955 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="icon" href="assets/img/jarwo32.ico" type="image/x-icon">
+  <title>Transkrip Kuliah</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="description" content="HTML5 website template">
+  <meta name="keywords" content="global, template, html, sass, jquery">
+  <meta name="author" content="Bucky Maler">
+  <link rel="stylesheet" href="assets/css/transkrip.css">
+</head>
+<body>
+
+<div class="perspective effect-rotate-left">
+  <div class="container">
+    <div class="outer-nav--return"></div>
+    <div id="viewport" class="l-viewport">
+      <div class="l-wrapper">
+        <header class="header">
+          <a class="header--logo" href="index.html">
+            <img src="assets/img/jarwo32.ico" alt="Global">
+            <p>KEMBALI KE HALAMAN UTAMA</p>
+          </a>
+          <div class="header--nav-toggle">
+            <span></span>
+          </div>
+        </header>
+        <nav class="l-side-nav">
+          <ul class="side-nav">
+            <li class="is-active"><span>Semester 1</span></li>
+            <li><span>Semester 2</span></li>
+            <li><span>SP Genap</span></li>
+            <li><span>Semester 3</span></li>
+            <li><span>SP Ganjil</span></li>
+            <li><span>Semester 4</span></li>
+            <li><span>SP Genap</span></li>
+            <li><span>Semester 5</span></li>
+            <li><span>SP Ganjil</span></li>
+            <li><span>Semester 6</span></li>
+            <li><span>SP Genap</span></li>
+            <li><span>Semester 7</span></li>
+            <li><span>SP Ganjil</span></li>
+            <li><span>Semester 8</span></li>
+          </ul>
+        </nav>
+        <ul class="l-main-content main-content">
+          <!-- Content for Semester 1 -->
+          <li class="l-section section section--is-active">
+            <div class="intro">
+              <div class="intro--banner">
+                <h1 style="font-size: 24px;">Semester 1<br><span style="color: rgb(255, 200, 0);">Transkrip Nilai</span></h1>
+                <p style="font-size: 14px;">Detail mata kuliah dan nilai untuk Semester 1.</p>
+                
+                <table style="width: 100%; border-collapse: collapse;">
+                  <thead>
+                    <tr>
+                      <th>No</th>
+                      <th>Kode</th>
+                      <th>Nama Mata Kuliah</th>
+                      <th>Kelas</th>
+                      <th>SKS</th>
+                      <th>Nilai</th>
+                      <th>Detail</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td>1.</td>
+                      <td>W152100002</td>
+                      <td>ALGORITMA DAN PEMROGRAMAN</td>
+                      <td>2B1156AA</td>
+                      <td>3</td>
+                      <td>A</td>
+                      <td>
+                        <button class="detail-toggle" onclick="toggleDetail(this)">🔽</button>
+                      </td>
+                    </tr>
+                    <tr class="detail-row" style="display: none;">
+                      <td colspan="7">
+                        <div class="detail-content">
+                          <div class="score-container">
+                            <span class="score-title">PRE:</span>
+                            <span class="score-value">93.00</span>
+                          </div>
+                          <div class="score-container">
+                            <span class="score-title">TGS:</span>
+                            <span class="score-value">78.00</span>
+                          </div>
+                          <div class="score-container">
+                            <span class="score-title">UAS:</span>
+                            <span class="score-value">95.00</span>
+                          </div>
+                        </div>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>2.</td>
+                      <td>U002100014</td>
+                      <td>BAHASA INGGRIS I</td>
+                      <td>2B1156CA</td>
+                      <td>2</td>
+                      <td>A</td>
+                      <td>
+                        <button class="detail-toggle" onclick="toggleDetail(this)">🔽</button>
+                      </td>
+                    </tr>
+                    <tr class="detail-row" style="display: none;">
+                      <td colspan="7">
+                        <div class="detail-content">
+                          <div class="score-container">
+                            <span class="score-title">PRE:</span>
+                            <span class="score-value">94.00</span>
+                          </div>
+                          <div class="score-container">
+                            <span class="score-title">TGS:</span>
+                            <span class="score-value">90.15</span>
+                          </div>
+                          <div class="score-container">
+                            <span class="score-title">UAS:</span>
+                            <span class="score-value">95.00</span>
+                          </div>
+                        </div>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>3.</td>
+                      <td>F062100001</td>
+                      <td>DASAR KEAMANAN KOMPUTER</td>
+                      <td>2B1151EL</td>
+                      <td>3</td>
+                      <td>A</td>
+                      <td>
+                        <button class="detail-toggle" onclick="toggleDetail(this)">🔽</button>
+                      </td>
+                    </tr>
+                    <tr class="detail-row" style="display: none;">
+                      <td colspan="7">
+                        <div class="detail-content">
+                          <div class="score-container">
+                            <span class="score-title">PRE:</span>
+                            <span class="score-value">100.00</span>
+                          </div>
+                          <div class="score-container">
+                            <span class="score-title">TGS:</span>
+                            <span class="score-value">90.00</span>
+                          </div>
+                          <div class="score-container">
+                            <span class="score-title">UAS:</span>
+                            <span class="score-value">100.00</span>
+                          </div>
+                        </div>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>4.</td>
+                      <td>W152100001</td>
+                      <td>KALKULUS</td>
+                      <td>2B1156BA</td>
+                      <td>3</td>
+                      <td>A</td>
+                      <td>
+                        <button class="detail-toggle" onclick="toggleDetail(this)">🔽</button>
+                      </td>
+                    </tr>
+                    <tr class="detail-row" style="display: none;">
+                      <td colspan="7">
+                        <div class="detail-content">
+                          <div class="score-container">
+                            <span class="score-title">PRE:</span>
+                            <span class="score-value">93.00</span>
+                          </div>
+                          <div class="score-container">
+                            <span class="score-title">TGS:</span>
+                            <span class="score-value">91.00</span>
+                          </div>
+                          <div class="score-container">
+                            <span class="score-title">UAS:</span>
+                            <span class="score-value">90.00</span>
+                          </div>
+                        </div>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>5.</td>
+                      <td>U002100003</td>
+                      <td>PENDIDIKAN AGAMA KATOLIK</td>
+                      <td>2B2323EL</td>
+                      <td>2</td>
+                      <td>A</td>
+                      <td>
+                        <button class="detail-toggle" onclick="toggleDetail(this)">🔽</button>
+                      </td>
+                    </tr>
+                    <tr class="detail-row" style="display: none;">
+                      <td colspan="7">
+                        <div class="detail-content">
+                          <div class="score-container">
+                            <span class="score-title">PRE:</span>
+                            <span class="score-value">87.00</span>
+                          </div>
+                          <div class="score-container">
+                            <span class="score-title">TGS:</span>
+                            <span class="score-value">80.00</span>
+                          </div>
+                          <div class="score-container">
+                            <span class="score-title">UAS:</span>
+                            <span class="score-value">95.00</span>
+                          </div>
+                        </div>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>6.</td>
+                      <td>W152100003</td>
+                      <td>SISTEM BASIS DATA</td>
+                      <td>2B1152EL</td>
+                      <td>3</td>
+                      <td>B+</td>
+                      <td>
+                        <button class="detail-toggle" onclick="toggleDetail(this)">🔽</button>
+                      </td>
+                    </tr>
+                    <tr class="detail-row" style="display: none;">
+                      <td colspan="7">
+                        <div class="detail-content">
+                          <div class="score-container">
+                            <span class="score-title">PRE:</span>
+                            <span class="score-value">100.00</span>
+                          </div>
+                          <div class="score-container">
+                            <span class="score-title">TGS:</span>
+                            <span class="score-value">79.00</span>
+                          </div>
+                          <div class="score-container">
+                            <span class="score-title">UAS:</span>
+                            <span class="score-value">77.00</span>
+                          </div>
+                        </div>
+                      </td>
+                    </tr>
+                  </tbody>
+                </table>
+                <p style="font-size: 15px;">PRE : <span style="color: rgb(255, 200, 0);">Presensi</span><br>
+                  TGS : <span style="color: rgb(255, 200, 0);">Tugas</span><br>
+                  UAS : <span style="color: rgb(255, 200, 0);">Ujian Akhir Semester</span></p>
+
+                <h1 style="font-size: 15px;">IP SEMENTARA : 3.91<br>
+                  <span style="color: rgb(255, 200, 0);">IP KOMULATIF  :</span>
+                  <span style="color: rgb(255, 255, 255);">3.91</span></h1>
+
+                  <div class="download-pdf-container">
+                    <a href="pdf/transkripsemester1.pdf" class="download-pdf-button" download>Download PDF Transkrip Semester 1</a>
+                  </div>
+              </div>
+            </div>
+          </li>
+          <!-- Content for Semester 2 -->
+          <li class="l-section section">
+            <div class="intro">
+              <div class="intro--banner">
+                <h1 style="font-size: 24px;">Semester 2<br><span style="color: rgb(255, 200, 0);">Transkrip Nilai</span></h1>
+                <p style="font-size: 14px;">Detail mata kuliah dan nilai untuk Semester 2.</p>
+                
+                <table style="width: 100%; border-collapse: collapse;">
+                  <thead>
+                    <tr>
+                      <th>No</th>
+                      <th>Kode</th>
+                      <th>Nama Mata Kuliah</th>
+                      <th>Kelas</th>
+                      <th>SKS</th>
+                      <th>Nilai</th>
+                      <th>Detail</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td>1.</td>
+                      <td>W152100008</td>
+                      <td>ARSITEKTUR KOMPUTER</td>
+                      <td>2B2152EL</td>
+                      <td>3</td>
+                      <td>A</td>
+                      <td>
+                        <button class="detail-toggle" onclick="toggleDetail(this)">🔽</button>
+                      </td>
+                    </tr>
+                    <tr class="detail-row" style="display: none;">
+                      <td colspan="7">
+                        <div class="detail-content">
+                          <div class="score-container">
+                            <span class="score-title">PRE:</span>
+                            <span class="score-value">100.00</span>
+                          </div>
+                          <div class="score-container">
+                            <span class="score-title">TGS:</span>
+                            <span class="score-value">79.00</span>
+                          </div>
+                          <div class="score-container">
+                            <span class="score-title">UAS:</span>
+                            <span class="score-value">90.00</span>
+                          </div>
+                        </div>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>2.</td>
+                      <td>U002100015</td>
+                      <td>BAHASA INGGRIS II</td>
+                      <td>2B3426CA</td>
+                      <td>2</td>
+                      <td>A</td>
+                      <td>
+                        <button class="detail-toggle" onclick="toggleDetail(this)">🔽</button>
+                      </td>
+                    </tr>
+                    <tr class="detail-row" style="display: none;">
+                      <td colspan="7">
+                        <div class="detail-content">
+                          <div class="score-container">
+                            <span class="score-title">PRE:</span>
+                            <span class="score-value">94.00</span>
+                          </div>
+                          <div class="score-container">
+                            <span class="score-title">TGS:</span>
+                            <span class="score-value">82.45</span>
+                          </div>
+                          <div class="score-container">
+                            <span class="score-title">UAS:</span>
+                            <span class="score-value">95.00</span>
+                          </div>
+                        </div>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>3.</td>
+                      <td>W152100009</td>
+                      <td>CCNA R&S 1</td>
+                      <td>2B2151EL</td>
+                      <td>3</td>
+                      <td>A</td>
+                      <td>
+                        <button class="detail-toggle" onclick="toggleDetail(this)">🔽</button>
+                      </td>
+                    </tr>
+                    <tr class="detail-row" style="display: none;">
+                      <td colspan="7">
+                        <div class="detail-content">
+                          <div class="score-container">
+                            <span class="score-title">PRE:</span>
+                            <span class="score-value">100.00</span>
+                          </div>
+                          <div class="score-container">
+                            <span class="score-title">TGS:</span>
+                            <span class="score-value">90.00</span>
+                          </div>
+                          <div class="score-container">
+                            <span class="score-title">UAS:</span>
+                            <span class="score-value">100.00</span>
+                          </div>
+                        </div>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>4.</td>
+                      <td>U002100007</td>
+                      <td>PANCASILA</td>
+                      <td>2B2153EL</td>
+                      <td>2</td>
+                      <td>A</td>
+                      <td>
+                        <button class="detail-toggle" onclick="toggleDetail(this)">🔽</button>
+                      </td>
+                    </tr>
+                    <tr class="detail-row" style="display: none;">
+                      <td colspan="7">
+                        <div class="detail-content">
+                          <div class="score-container">
+                            <span class="score-title">PRE:</span>
+                            <span class="score-value">93.00</span>
+                          </div>
+                          <div class="score-container">
+                            <span class="score-title">TGS:</span>
+                            <span class="score-value">81.88</span>
+                          </div>
+                          <div class="score-container">
+                            <span class="score-title">UAS:</span>
+                            <span class="score-value">75.00</span>
+                          </div>
+                        </div>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>5.</td>
+                      <td>W152100012</td>
+                      <td>PENGANTAR KECERDASAN BUATAN</td>
+                      <td>2B3155EL</td>
+                      <td>3</td>
+                      <td>B+</td>
+                      <td>
+                        <button class="detail-toggle" onclick="toggleDetail(this)">🔽</button>
+                      </td>
+                    </tr>
+                    <tr class="detail-row" style="display: none;">
+                      <td colspan="7">
+                        <div class="detail-content">
+                          <div class="score-container">
+                            <span class="score-title">PRE:</span>
+                            <span class="score-value">100.00</span>
+                          </div>
+                          <div class="score-container">
+                            <span class="score-title">TGS:</span>
+                            <span class="score-value">79.00</span>
+                          </div>
+                          <div class="score-container">
+                            <span class="score-title">UAS:</span>
+                            <span class="score-value">77.00</span>
+                          </div>
+                        </div>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>6.</td>
+                      <td>W152100007</td>
+                      <td>PRAKTIKUM ALGORITMA DAN STRUKTUR DATA</td>
+                      <td>2B2156AA</td>
+                      <td>3</td>
+                      <td>A</td>
+                      <td>
+                        <button class="detail-toggle" onclick="toggleDetail(this)">🔽</button>
+                      </td>
+                    </tr>
+                    <tr class="detail-row" style="display: none;">
+                      <td colspan="7">
+                        <div class="detail-content">
+                          <div class="score-container">
+                            <span class="score-title">PRE:</span>
+                            <span class="score-value">100.00</span>
+                          </div>
+                          <div class="score-container">
+                            <span class="score-title">TGS:</span>
+                            <span class="score-value">86.00</span>
+                          </div>
+                          <div class="score-container">
+                            <span class="score-title">UAS:</span>
+                            <span class="score-value">87.00</span>
+                          </div>
+                        </div>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>7.</td>
+                      <td>W152100006</td>
+                      <td>STRUKTUR DATA</td>
+                      <td>2B2156BA</td>
+                      <td>3</td>
+                      <td>A</td>
+                      <td>
+                        <button class="detail-toggle" onclick="toggleDetail(this)">🔽</button>
+                      </td>
+                    </tr>
+                    <tr class="detail-row" style="display: none;">
+                      <td colspan="7">
+                        <div class="detail-content">
+                          <div class="score-container">
+                            <span class="score-title">PRE:</span>
+                            <span class="score-value">93.00</span>
+                          </div>
+                          <div class="score-container">
+                            <span class="score-title">TGS:</span>
+                            <span class="score-value">82.50</span>
+                          </div>
+                          <div class="score-container">
+                            <span class="score-title">UAS:</span>
+                            <span class="score-value">100.00</span>
+                          </div>
+                        </div>
+                      </td>
+                    </tr>
+                  </tbody>
+                </table>
+                <p style="font-size: 15px;">PRE : <span style="color: rgb(255, 200, 0);">Presensi</span><br>
+                  TGS : <span style="color: rgb(255, 200, 0);">Tugas</span><br>
+                  UAS : <span style="color: rgb(255, 200, 0);">Ujian Akhir Semester</span></p>
+
+                <h1 style="font-size: 15px;">IP SEMENTARA : 3.92<br>
+                  <span style="color: rgb(255, 200, 0);">IP KOMULATIF  :</span>
+                  <span style="color: rgb(255, 255, 255);">3.91</span></h1>
+
+                  <div class="download-pdf-container">
+                    <a href="pdf/transkripsemester2.pdf" class="download-pdf-button" download>Download PDF Transkrip Semester 2</a>
+                  </div>
+              </div>
+            </div>
+          </li>
+          <li class="l-section section">
+            <div class="intro">
+              <div class="intro--banner">
+                <h1 style="font-size: 24px;">Semester Pendek Genap<br><span style="color: rgb(255, 200, 0);">Transkrip Nilai</span></h1>
+                <p style="font-size: 14px;">Detail mata kuliah dan nilai untuk Semester Pendek Genap.</p>
+                
+                <table style="width: 100%; border-collapse: collapse;">
+                  <thead>
+                    <tr>
+                      <th>No</th>
+                      <th>Kode</th>
+                      <th>Nama Mata Kuliah</th>
+                      <th>Kelas</th>
+                      <th>SKS</th>
+                      <th>Nilai</th>
+                      <th>Detail</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td>1.</td>
+                      <td>W152100004</td>
+                      <td>MATEMATIKA DISKRIT</td>
+                      <td>2B2154SP</td>
+                      <td>3</td>
+                      <td>A</td>
+                      <td>
+                        <button class="detail-toggle" onclick="toggleDetail(this)">🔽</button>
+                      </td>
+                    </tr>
+                    <tr class="detail-row" style="display: none;">
+                      <td colspan="7">
+                        <div class="detail-content">
+                          <div class="score-container">
+                            <span class="score-title">PRE:</span>
+                            <span class="score-value">100.00</span>
+                          </div>
+                          <div class="score-container">
+                            <span class="score-title">TGS:</span>
+                            <span class="score-value">79.50</span>
+                          </div>
+                          <div class="score-container">
+                            <span class="score-title">UAS:</span>
+                            <span class="score-value">80.00</span>
+                          </div>
+                        </div>
+                      </td>
+                    </tr>
+                  </tbody>
+                </table>
+                <p style="font-size: 15px;">PRE : <span style="color: rgb(255, 200, 0);">Presensi</span><br>
+                  TGS : <span style="color: rgb(255, 200, 0);">Tugas</span><br>
+                  UAS : <span style="color: rgb(255, 200, 0);">Ujian Akhir Semester</span></p>
+
+                <h1 style="font-size: 15px;">IP SEMENTARA : 4.00<br>
+                  <span style="color: rgb(255, 200, 0);">IP KOMULATIF  :</span>
+                  <span style="color: rgb(255, 255, 255);">3.92</span></h1>
+
+                  <div class="download-pdf-container">
+                    <a href="pdf/transkripsemesterpendekgenap2.pdf" class="download-pdf-button" download>Download PDF Transkrip Semester Genap Pendek</a>
+                  </div>
+              </div>
+            </div>
+          </li>
+                
+
+          <!-- Content for Semester 3 -->
+          <li class="l-section section">
+            <div class="intro">
+              <div class="intro--banner">
+                <h1 style="font-size: 24px;">Semester 3<br><span style="color: rgb(255, 200, 0);">Transkrip Nilai</span></h1>
+                <p style="font-size: 14px;">Detail mata kuliah dan nilai untuk Semester 3.</p>
+                
+                <table style="width: 100%; border-collapse: collapse;">
+                  <thead>
+                    <tr>
+                      <th>No</th>
+                      <th>Kode</th>
+                      <th>Nama Mata Kuliah</th>
+                      <th>Kelas</th>
+                      <th>SKS</th>
+                      <th>Nilai</th>
+                      <th>Detail</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td>1.</td>
+                      <td>P152110001</td>
+                      <td>ALGORITMA LANJUT</td>
+                      <td>2B3156AA</td>
+                      <td>3</td>
+                      <td>A</td>
+                      <td>
+                        <button class="detail-toggle" onclick="toggleDetail(this)">🔽</button>
+                      </td>
+                    </tr>
+                    <tr class="detail-row" style="display: none;">
+                      <td colspan="7">
+                        <div class="detail-content">
+                          <div class="score-container">
+                            <span class="score-title">PRE:</span>
+                            <span class="score-value">93.00</span>
+                          </div>
+                          <div class="score-container">
+                            <span class="score-title">TGS:</span>
+                            <span class="score-value">92.00</span>
+                          </div>
+                          <div class="score-container">
+                            <span class="score-title">UAS:</span>
+                            <span class="score-value">87.00</span>
+                          </div>
+                        </div>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>2.</td>
+                      <td>F062100003</td>
+                      <td>ANALISA BERORIENTASI OBJEK</td>
+                      <td>2B4151EL</td>
+                      <td>3</td>
+                      <td>A</td>
+                      <td>
+                        <button class="detail-toggle" onclick="toggleDetail(this)">🔽</button>
+                      </td>
+                    </tr>
+                    <tr class="detail-row" style="display: none;">
+                      <td colspan="7">
+                        <div class="detail-content">
+                          <div class="score-container">
+                            <span class="score-title">PRE:</span>
+                            <span class="score-value">93.00</span>
+                          </div>
+                          <div class="score-container">
+                            <span class="score-title">TGS:</span>
+                            <span class="score-value">95.00</span>
+                          </div>
+                          <div class="score-container">
+                            <span class="score-title">UAS:</span>
+                            <span class="score-value">100.00</span>
+                          </div>
+                        </div>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>3.</td>
+                      <td>F062100006</td>
+                      <td>PEMROGRAMAN PL/SQL</td>
+                      <td>2B3156CA</td>
+                      <td>3</td>
+                      <td>A</td>
+                      <td>
+                        <button class="detail-toggle" onclick="toggleDetail(this)">🔽</button>
+                      </td>
+                    </tr>
+                    <tr class="detail-row" style="display: none;">
+                      <td colspan="7">
+                        <div class="detail-content">
+                          <div class="score-container">
+                            <span class="score-title">PRE:</span>
+                            <span class="score-value">100.00</span>
+                          </div>
+                          <div class="score-container">
+                            <span class="score-title">TGS:</span>
+                            <span class="score-value">83.50</span>
+                          </div>
+                          <div class="score-container">
+                            <span class="score-title">UAS:</span>
+                            <span class="score-value">89.00</span>
+                          </div>
+                        </div>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>4.</td>
+                      <td>P152110002</td>
+                      <td>PPENGANTAR DATA SCIENCE</td>
+                      <td>2B3156BA</td>
+                      <td>3</td>
+                      <td>A</td>
+                      <td>
+                        <button class="detail-toggle" onclick="toggleDetail(this)">🔽</button>
+                      </td>
+                    </tr>
+                    <tr class="detail-row" style="display: none;">
+                      <td colspan="7">
+                        <div class="detail-content">
+                          <div class="score-container">
+                            <span class="score-title">PRE:</span>
+                            <span class="score-value">100.00</span>
+                          </div>
+                          <div class="score-container">
+                            <span class="score-title">TGS:</span>
+                            <span class="score-value">92.50</span>
+                          </div>
+                          <div class="score-container">
+                            <span class="score-title">UAS:</span>
+                            <span class="score-value">80.00</span>
+                          </div>
+                        </div>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>5.</td>
+                      <td>F062100004</td>
+                      <td>REKAYASA PERANGKAT LUNAK</td>
+                      <td>2A3155EL</td>
+                      <td>3</td>
+                      <td>A</td>
+                      <td>
+                        <button class="detail-toggle" onclick="toggleDetail(this)">🔽</button>
+                      </td>
+                    </tr>
+                    <tr class="detail-row" style="display: none;">
+                      <td colspan="7">
+                        <div class="detail-content">
+                          <div class="score-container">
+                            <span class="score-title">PRE:</span>
+                            <span class="score-value">93.00</span>
+                          </div>
+                          <div class="score-container">
+                            <span class="score-title">TGS:</span>
+                            <span class="score-value">79.00</span>
+                          </div>
+                          <div class="score-container">
+                            <span class="score-title">UAS:</span>
+                            <span class="score-value">83.00</span>
+                          </div>
+                        </div>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>6.</td>
+                      <td>W152100011</td>
+                      <td>SISTEM OPERASI</td>
+                      <td>2B3152EL</td>
+                      <td>3</td>
+                      <td>B+</td>
+                      <td>
+                        <button class="detail-toggle" onclick="toggleDetail(this)">🔽</button>
+                      </td>
+                    </tr>
+                    <tr class="detail-row" style="display: none;">
+                      <td colspan="7">
+                        <div class="detail-content">
+                          <div class="score-container">
+                            <span class="score-title">PRE:</span>
+                            <span class="score-value">100.00</span>
+                          </div>
+                          <div class="score-container">
+                            <span class="score-title">TGS:</span>
+                            <span class="score-value">81.00</span>
+                          </div>
+                          <div class="score-container">
+                            <span class="score-title">UAS:</span>
+                            <span class="score-value">70.00</span>
+                          </div>
+                        </div>
+                      </td>
+                    </tr>
+                  </tbody>
+                </table>
+                <p style="font-size: 15px;">PRE : <span style="color: rgb(255, 200, 0);">Presensi</span><br>
+                  TGS : <span style="color: rgb(255, 200, 0);">Tugas</span><br>
+                  UAS : <span style="color: rgb(255, 200, 0);">Ujian Akhir Semester</span></p>
+
+                <h1 style="font-size: 15px;">IP SEMENTARA : 3.92<br>
+                  <span style="color: rgb(255, 200, 0);">IP KOMULATIF  :</span>
+                  <span style="color: rgb(255, 255, 255);">3.92</span></h1>
+
+                  <div class="download-pdf-container">
+                    <a href="pdf/transkripsemester3.pdf" class="download-pdf-button" download>Download PDF Transkrip Semester 3</a>
+                  </div>
+              </div>
+            </div>
+          </li>
+
+
+          <li class="l-section section">
+            <div class="intro">
+              <div class="intro--banner">
+                <h1 style="font-size: 24px;">Semester Pendek Ganjil<br><span style="color: rgb(255, 200, 0);">Transkrip Nilai</span></h1>
+                <p style="font-size: 14px;">Detail mata kuliah dan nilai untuk Semester Pendek Ganjil.</p>
+                
+                <table style="width: 100%; border-collapse: collapse;">
+                  <thead>
+                    <tr>
+                      <th>No</th>
+                      <th>Kode</th>
+                      <th>Nama Mata Kuliah</th>
+                      <th>Kelas</th>
+                      <th>SKS</th>
+                      <th>Nilai</th>
+                      <th>Detail</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td>1.</td>
+                      <td>W152100010</td>
+                      <td>ALJABAR LINIER</td>
+                      <td>2B3152SP</td>
+                      <td>3</td>
+                      <td>A</td>
+                      <td>
+                        <button class="detail-toggle" onclick="toggleDetail(this)">🔽</button>
+                      </td>
+                    </tr>
+                    <tr class="detail-row" style="display: none;">
+                      <td colspan="7">
+                        <div class="detail-content">
+                          <div class="score-container">
+                            <span class="score-title">PRE:</span>
+                            <span class="score-value">100.00</span>
+                          </div>
+                          <div class="score-container">
+                            <span class="score-title">TGS:</span>
+                            <span class="score-value">85.50</span>
+                          </div>
+                          <div class="score-container">
+                            <span class="score-title">UAS:</span>
+                            <span class="score-value">95.00</span>
+                          </div>
+                        </div>
+                      </td>
+                    </tr>
+                  </tbody>
+                </table>
+                <p style="font-size: 15px;">PRE : <span style="color: rgb(255, 200, 0);">Presensi</span><br>
+                  TGS : <span style="color: rgb(255, 200, 0);">Tugas</span><br>
+                  UAS : <span style="color: rgb(255, 200, 0);">Ujian Akhir Semester</span></p>
+
+                <h1 style="font-size: 15px;">IP SEMENTARA : 4.00<br>
+                  <span style="color: rgb(255, 200, 0);">IP KOMULATIF  :</span>
+                  <span style="color: rgb(255, 255, 255);">3.92</span></h1>
+
+                  <div class="download-pdf-container">
+                    <a href="pdf/transkripsemesterpendekganjil3.pdf" class="download-pdf-button" download>Download PDF Transkrip Semester Ganjil Pendek</a>
+                  </div>
+              </div>
+            </div>
+          </li>
+
+          <!-- Content for Semester 4 -->
+          <li class="l-section section">
+            <div class="intro">
+              <div class="intro--banner">
+                <h1>Semester 4<br> <span style="color: rgb(255, 200, 0);">Transkrip Nilai</span></h1>
+                <p>Nilai belum ada karena semester sedang berlangsung</p>
+                <!-- Add Semester 4 details here -->
+              </div>
+            </div>
+          </li>
+          <li class="l-section section">
+            <div class="intro">
+              <div class="intro--banner">
+                <h1>Semester Pendek Genap<br> <span style="color: rgb(255, 200, 0);">Transkrip Nilai</span></h1>
+                <p>Nilai belum ada karena semester sebelumnya sedang berlangsung</p>
+                <!-- Add Semester Pendek Genap details here -->
+              </div>
+            </div>
+
+          <!-- Content for Semester 5 -->
+          <li class="l-section section">
+            <div class="intro">
+              <div class="intro--banner">
+                <h1>Semester 5<br> <span style="color: rgb(255, 200, 0);">Transkrip Nilai</span></h1>
+                <p>Nilai belum ada karena semester sebelumnya sedang berlangsung</p>
+                <!-- Add Semester 5 details here -->
+              </div>
+            </div>
+          </li>
+          <li class="l-section section">
+            <div class="intro">
+              <div class="intro--banner">
+                <h1>Semester Pendek Ganjil<br> <span style="color: rgb(255, 200, 0);">Transkrip Nilai</span></h1>
+                <p>Nilai belum ada karena semester sebelumnya sedang berlangsung</p>
+                <!-- Add Semester Pendek Ganjil details here -->
+              </div>
+            </div>
+
+          <!-- Content for Semester 6 -->
+          <li class="l-section section">
+            <div class="intro">
+              <div class="intro--banner">
+                <h1>Semester 6<br> <span style="color: rgb(255, 200, 0);">Transkrip Nilai</span></h1>
+                <p>Nilai belum ada karena semester sebelumnya sedang berlangsung</p>
+                <!-- Add Semester 6 details here -->
+              </div>
+            </div>
+          </li>
+          <li class="l-section section">
+            <div class="intro">
+              <div class="intro--banner">
+                <h1>Semester Pendek Genap<br> <span style="color: rgb(255, 200, 0);">Transkrip Nilai</span></h1>
+                <p>Nilai belum ada karena semester sebelumnya sedang berlangsung</p>
+                <!-- Add Semester Pendek Genap details here -->
+              </div>
+            </div>
+
+          <!-- Content for Semester 7 -->
+          <li class="l-section section">
+            <div class="intro">
+              <div class="intro--banner">
+                <h1>Semester 7<br> <span style="color: rgb(255, 200, 0);">Transkrip Nilai</span></h1>
+                <p>Nilai belum ada karena semester sebelumnya sedang berlangsung</p>
+                <!-- Add Semester 7 details here -->
+              </div>
+            </div>
+          </li>
+          <li class="l-section section">
+            <div class="intro">
+              <div class="intro--banner">
+                <h1>Semester Pendek Ganjil<br> <span style="color: rgb(255, 200, 0);">Transkrip Nilai</span></h1>
+                <p>Nilai belum ada karena semester sebelumnya sedang berlangsung</p>
+                <!-- Add Semester Pendek Ganjil details here -->
+              </div>
+            </div>
+
+          <!-- Content for Semester 8 -->
+          <li class="l-section section">
+            <div class="intro">
+              <div class="intro--banner">
+                <h1>Semester 8<br> <span style="color: rgb(255, 200, 0);">Transkrip Nilai</span></h1>
+                <p>Nilai belum ada karena semester sebelumnya sedang berlangsung</p>
+                <!-- Add Semester 8 details here -->
+              </div>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <ul class="outer-nav">
+    <li class="is-active">Semester 1</li>
+    <li>Semester 2</li>
+    <li>SP Genap</li>
+    <li>Semester 3</li>
+    <li>SP Ganjil</li>
+    <li>Semester 4</li>
+    <li>SP Genap</li>
+    <li>Semester 5</li>
+    <li>SP Ganjil</li>
+    <li>Semester 6</li>
+    <li>SP Genap</li>
+    <li>Semester 7</li>
+    <li>SP Ganjil</li>
+    <li>Semester 8</li>
+  </ul>
+</div>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+<script>window.jQuery || document.write('<script src="assets/js/vendor/jquery-2.2.4.min.js"><\/script>')</script>
+<script src="assets/js/functions-min.js"></script>
+
+
+</body>
+</html>
